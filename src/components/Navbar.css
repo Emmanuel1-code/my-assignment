@@ -64,11 +64,20 @@ button{
     max-width: 1000px;
     margin: auto;
 }
-.others1{
-    background-color: blue;
+.others1{ 
+    padding: 3px 2px;
+    
+    background-color:blue;
+    border-radius: 4px;
+    color: white;
+}
+.others2{
     padding: 3px 2px;
     border-radius: 4px;
     color: white;
+}
+.others2:hover{
+    background-color: rgb(192, 192, 215);
 }
 button:hover{
     background-color: #7b7272;
@@ -143,6 +152,10 @@ a{
     }
     form {
         margin-top: 20px;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
     input[type="text"] {
         /*width: 100%;*/
@@ -160,6 +173,28 @@ a{
     }
     button {
         margin-top: 20px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    il {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    li {
+        
+        margin-bottom: 10px;
+    }
+    .others2{
+        padding: 3px 2px;
+        border-radius: 4px;
+        color: white;
+    }
+    .others2:hover{
+        background-color: rgb(192, 192, 215);
     }
 }
 @media (max-width: 480px) {
@@ -180,5 +215,20 @@ a{
         align-items: center;
         flex-direction: column;
         text-align: center;
+    }
+    form {
+        margin-top: 10px;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .others2{
+        padding: 3px 2px;
+        border-radius: 4px;
+        color: white;
+    }
+    .others2:hover{
+        background-color: rgb(192, 192, 215);
     }
 }

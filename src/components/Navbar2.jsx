@@ -5,9 +5,9 @@ function Navbar2() {
     <div  wrapper>
         <nav>
             <ul>
-                <li><a href='#'>Gmail</a></li>
-                <li><a href='#'>Images</a></li>
-                <li className='more-menu'>
+                <li className='others2'><a href='#'>Gmail</a></li>
+                <li className='others2'><a href='#'>Images</a></li>
+                <li className='more-menu others2'>
                     <a href='#'>More</a>
                     <ul>
                         <li><a href='#'>Google Apps</a></li>
