@@ -39,7 +39,8 @@ input[type="text"]{
     padding: 0 16px;
     font-size: 13px;
     font-weight: 400;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     
     
 }
@@ -144,7 +145,7 @@ a{
         margin-top: 20px;
     }
     input[type="text"] {
-        width: 100%;
+        /*width: 100%;*/
         max-width: 400px;
     }
     .logo {
